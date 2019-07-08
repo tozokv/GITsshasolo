@@ -7,6 +7,7 @@ CREATE TABLE [HumanResources].[Department] (
 		[Name]             [dbo].[Name] NOT NULL,
 		[GroupName]        [dbo].[Name] NOT NULL,
 		[ModifiedDate]     [datetime] NOT NULL,
+		[new]              [int] NULL,
 		CONSTRAINT [PK_Department_DepartmentID]
 		PRIMARY KEY
 		CLUSTERED

@@ -19,6 +19,7 @@ CREATE TABLE [HumanResources].[Employee] (
 		[CurrentFlag]           [dbo].[Flag] NOT NULL,
 		[rowguid]               [uniqueidentifier] NOT NULL ROWGUIDCOL,
 		[ModifiedDate]          [datetime] NOT NULL,
+		[new]                   [int] NULL,
 		CONSTRAINT [PK_Employee_BusinessEntityID]
 		PRIMARY KEY
 		CLUSTERED
