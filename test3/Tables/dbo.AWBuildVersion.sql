@@ -7,6 +7,15 @@ CREATE TABLE [dbo].[AWBuildVersion] (
 		[Database Version]        [nvarchar](25) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 		[VersionDate]             [datetime] NOT NULL,
 		[ModifiedDate]            [datetime] NOT NULL,
+		[qwe]                     [int] NULL,
+		[add]                     [int] NULL,
+		[rrr]                     [int] NULL,
+		[www]                     [int] NULL,
+		[eeee]                    [int] NULL,
+		[weq]                     [int] NULL,
+		[gas]                     [int] NULL,
+		[dhds]                    [int] NULL,
+		[asde]                    [int] NULL,
 		CONSTRAINT [PK_AWBuildVersion_SystemInformationID]
 		PRIMARY KEY
 		CLUSTERED
